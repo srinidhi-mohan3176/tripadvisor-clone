@@ -210,7 +210,7 @@ margin-left: 250px;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     .section__one__s1 {
         display: none;
     }
