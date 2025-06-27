@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-      align-items: center;
+    align-items: center;
     position: sticky;
     top: 0;
     background-color: white;
@@ -77,12 +77,12 @@ body {
     gap: 2px;
     position: relative;
     top: 30px;
-   
+
     align-items: center;
     padding: 30px;
-border-radius: 70px;
-margin-left: 50px;
-margin-right: 50px;
+    border-radius: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .section__three img {
@@ -131,7 +131,7 @@ margin-right: 50px;
     position: relative;
     bottom: 13px;
     font-size: 18px;
-font-weight: 800;
+    font-weight: 800;
 }
 
 
@@ -141,78 +141,137 @@ font-weight: 800;
     font-size: 18px;
     font-weight: 800;
 }
-.section__four img{
+
+.section__four img {
     width: 25px;
     padding-left: 10px;
 }
-.section__four__s1{
+
+.section__four__s1 {
     padding: 10px;
     width: 40%;
     display: flex;
     gap: 20px;
     align-items: center;
-   margin-left: 420px;
-   margin-right: 220px;
-   border-radius: 40px;
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.section__four{
-    padding-top: 30px;
-    
+    position: relative;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.section__four__s1 input{
+.section__four {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section__four__s1 input {
     border: none;
     width: 100%;
     font-size: 16px;
-   
+
 
 
 }
-.section__four__s1 input:focus{
+
+.section__four__s1 input:focus {
     outline: none;
 }
-.section__four button{
+
+.section__four button {
     background-color: rgb(65, 230, 167);
     color: rgb(13, 13, 13);
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
+
+}
+
+.section__five {
+    background-color: orangered;
+    position: relative;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 90px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
     
+
 }
-.section__five{
-background-color: orangered;
-margin-left: 250px;
-   margin-right: 300px;
-   padding: 20px;
-   border-radius: 30px;
-   width: auto;
-   margin-top: 50px;
+
+.section__five__s1 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
 }
-.section__five__s1 img{
-        height: 30%;
-        width: 50%;
-        border-radius: 30px;
+
+.section__five__s2 {
+
+    padding-left: 30px;
+    border-left: 2px solid black;
 }
+
+.text-content {
+    padding-left: 20px;
+    color: black;
+    line-height: 1.8;
+    /* line height increased */
+}
+
+.text-content p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.text-content button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 @media screen and (max-width:1000px) {
     .navbar__s1 {
         display: none;
     }
-    
+
 }
-@media screen and (max-width:1000px){
-    .section__three{
-      display: none;
+
+@media screen and (max-width:800px) {
+    .section__three {
+        display: none;
     }
-    .section__four__s1{
-        margin: auto;
+
+    .section__four {
+            margin: auto;
     }
 }
 
 @media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+
     .section__one__s1 {
         display: none;
+    }
+
+    .section__five{
+        margin: auto;
+
+    }
+
+    .section__four__s1 {
+        margin: auto;
     }
 
 }
