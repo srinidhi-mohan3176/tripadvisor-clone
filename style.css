@@ -29,6 +29,7 @@ body {
     top: 0;
     background-color: white;
     z-index: 2;
+    padding-bottom:10px ;
 
 }
 
@@ -58,10 +59,44 @@ body {
     position: relative;
     top: 10px;
 }
+.navbar__s1 p:hover{
+    color: orangered;
 
+}
+.navbar__s2__l1 img:hover{
+    transform: scale(1.02);
+}
+.navbar__s2__l3 p:hover{
+    transition: 1s;
+    background: transparent;
+    color: rgb(233, 225, 225);
+
+}
+.section__three img:hover{
+    background-color: rgb(146, 146, 189);
+}
+
+.course__card img:hover{
+    filter: brightness(1.5);
+    transform: scale(1.05);
+}
+.card:hover{
+    transform: scale(1.04);
+    filter: saturate(200%);
+    border: solid black 2px;
+
+}
+.trip:hover{
+    background-color: bisque;
+    transform: scale(1.04);
+    
+}
+.trip img:hover{
+    filter: brightness(100%);
+}
 .section__one__s1 {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 900; 
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 40px;
@@ -307,10 +342,7 @@ body {
    margin-top: 20px;
 
 }
-.course__card img:hover{
-    filter: brightness(1.5);
-    transform: rotate(10deg);
-}
+
 .experience{
     padding: 20px;
     
