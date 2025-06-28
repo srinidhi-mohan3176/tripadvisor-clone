@@ -279,9 +279,10 @@ body {
 
 .course__card img {
 
-    height: 80%;
+    height: 90%;
     width: 100%;
     border-radius: 20px;
+    
       
      
 }
@@ -289,19 +290,129 @@ body {
     
 }
 .course__card h3{
-   background-color: black;
-   color:orangered;
+    background-color: orangered;
+   color: black;
+   border: solid black 3px;
    display: block;
    font-weight: 500;
    border-radius: 10px;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    margin-top: 20px;
+
+}
+.course__card img:hover{
+    filter: brightness(1.5);
+    transform: rotate(10deg);
+}
+.experience{
+    padding: 20px;
+}
+.experience__title{
+    padding-left:60px ;
+}
+.experience__desc{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.experience__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.card{
+    
+    width: 90%;
+    max-width: 1200px;
+    flex-basis: 40%;
+    flex-grow: 1;
+     background: #fff;
+    width: 300px;
+    padding: 15px;
+    margin: 1px;
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
+.card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+.card p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    
+}
+.card h4{
+    padding-top: 10px;
+   
 
+}
+.inter{
+    padding: 20px;
+}
+.inter__title{
+    padding-left:60px ;
+}
+.inter__desc{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.inter__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.trip{
+    
+    width: 90%;
+    max-width: 1200px;
+    flex-basis: 70%;
+    flex-grow: 1;
+     background: #fff;
+    width: 300px;
+    padding: 15px;
+    margin: 1px;
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.trip img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+.trip p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    
+}
+.trip h4{
+    padding-top: 10px;
+   
+
+}
 
 @media screen and (max-width:1000px) {
     .navbar__s1 {
@@ -409,5 +520,10 @@ body {
     padding-left:15px ;
     padding-top: 20px;
     font-size: 14px;
+}
+.card{
+    display: flex;
+    flex-basis: 60%;
+    flex-grow: 1;
 }
 }
